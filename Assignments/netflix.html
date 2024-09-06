@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix | India</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-image: url("./Netflix.jpg");
+      }
+      .div1 {
+        background-color: rgba(0, 0, 0, 0.7);
+        height: 100vh;
+        /* width: 100vw; */
+      }
+      .div2 {
+        height: 20%;
+        display: flex;
+      }
+      #div3 {
+        color: white;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        height: 80%;
+        flex-direction: column;
+      }
+      h1 {
+        font-size: 55px;
+      }
+      p {
+        margin: 13px;
+        font-weight: 400px;
+      }
+      #p1 {
+        font-size: 28px;
+      }
+      #p2 {
+        font-size: 23px;
+      }
+      .image {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+      }
+      .button {
+        width: 60%;
+        padding: 30px;
+        text-align: right;
+        word-spacing: 15px;
+      }
+      .signin {
+        padding: 8px 14px;
+        border-radius: 5px;
+        font-size: 15px;
+        color: white;
+        background: red;
+        border: none;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div1">
+      <div class="div2">
+        <div class="image">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/2560px-Netflix_2015_logo.svg.png"
+            width="150"
+            height="50"
+          />
+        </div>
+        <div class="button">
+          <button class="signin">Sign in</button>
+          <button class="signin">Register</button>
+        </div>
+      </div>
+      <div id="div3">
+        <h1>Unlimited movies, TV shows and more.</h1>
+        <p id="p1">Watch anywhere. Cancel anytime.</p>
+        <p></p>
+        <p id="p2">
+          Ready to watch? Enter your email to create or restart your membership.
+        </p>
+        <p></p>
+      </div>
+    </div>
+  </body>
+</html>
